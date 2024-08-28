@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+ background-color: #020a22;
+ border: 4px rgb(8, 96, 228) dotted;
+ padding: 10px ;
+  width: 100%;
+} 
+footer{
+   color: rgba(0, 255, 98, 0.836);
+}
+a{
+    color: rgb(0, 255, 255);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+main li{
+    display:inline;
+    margin-right: 2vw;
+}
+main ol{
+    border: 4px rgb(228, 187, 8) dotted;
+    padding: 1px 5px;
+    height: 20px;
+}
+h1{
+    position: absolute;
+    left: 30px;
+    top : 20px;
+    line-height:20px;
+}
+.one{
+    background-color: #285cf8;
+    padding: 10px 1px 16px 10px;
+}
+.two{
+    background-color: rgb(0, 0, 0);
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
